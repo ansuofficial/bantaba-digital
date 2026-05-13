@@ -486,6 +486,10 @@ footer ul {
         align-items: center;
     }
 
+    .btn {
+        padding: 10px 20px;
+    }
+
     header .logo {
         margin-bottom: 20px;
         display: inline-block;
@@ -499,7 +503,11 @@ footer ul {
         font-size: 2rem;
     }
 
-    .stats,
+    .stats {
+        flex-direction: column;
+        gap: 60px;
+    }
+
     .service-card-wrapper {
         flex-direction: column;
     }
